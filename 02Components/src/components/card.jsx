@@ -1,7 +1,19 @@
-// this card.jsx is also an function within it
-function Card() {
-  return "hi i am card ";
-}
+import React from "react";
 
-// he mhanje hya file madhun ha code export kela ye so je pahije ti file ha code use karu shak te any one file can used this code using import from fileName like that
-export default Card;
+// this is a arrow function and it return a one componet
+const card = () => {
+  return (
+    <div>
+      <div className="card">
+        <h1>Abhishek Satpute</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod culpa
+          ipsa vero natus modi veniam nihil fuga, sequi sapiente cum officiis
+          eaque dolor nisi iure! Nisi dolor consequuntur suscipit pariatur.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default card;
